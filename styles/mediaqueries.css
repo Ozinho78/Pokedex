@@ -1,0 +1,87 @@
+/* Media Queries */
+@media(max-width: 1100px) {
+  .header-content {
+    gap: 200px;
+  }
+  .footer-content {
+    gap: 200px;
+  }
+}
+
+@media(max-width: 750px) {
+  .header-content {
+    gap: 100px;
+  }
+  .footer-content {
+    gap: 100px;
+  }
+}
+
+@media(max-width: 600px) {
+  .title-span {
+    display: none;
+  }
+  .header-content {
+    gap: 20px;
+  }
+  .footer-content {
+    gap: 20px;
+  }
+}
+
+@media(max-width: 450px) {
+  .poke-card h1 {
+    font-size: 1.5rem;
+  }
+  .overlay-ctn h1 {
+    font-size: 1.8rem;
+  }
+  .overlay-ctn {
+    width: 350px;
+    height: 580px;
+  }
+  .overlay-header {
+    gap: 16px;
+  }
+  .overlay-ctn table {
+    font-size: 1.2rem;
+  }
+  .tab-evo {
+    font-size: 1.1rem;
+  }
+  .tab-evo-img img {
+    width: 70px;
+    height: 70px;
+    padding-right: 10px;
+  }
+  .tab-stats td:nth-child(4n + 1) {
+    padding-right: 16px;
+  }
+}
+
+@media(max-width: 370px) {
+  .poke-card h1 {
+    font-size: 1.3rem;
+  }
+  .overlay-ctn h1 {
+    font-size: 1.6rem;
+  }
+  .search-ctn {
+    gap: 2px;
+  }
+  .search-ctn input {
+    width: 120px;
+  }
+  .footer-content {
+    font-size: 0.8rem;
+  }
+}
+
+@media(max-width: 330px) {
+  .header-content {
+    gap: 10px;
+  }
+  .footer-content {
+    font-size: 0.7rem;
+  }
+}

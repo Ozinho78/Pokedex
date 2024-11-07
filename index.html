@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/pikachu.png" type="image/x-icon">
+  <title>Pokédex</title>
+
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/types.css">
+  <link rel="stylesheet" href="./styles/mediaqueries.css">
+
+  <script src="./scripts/templates.js" defer></script>
+  <script src="./scripts/script.js" defer></script>
+  <script src="./scripts/css.js" defer></script>
+
+</head>
+<body onload="init()">
+
+  <header>
+    <div class="header-content">
+
+      <div class="logo-ctn">
+        <a class="header-link" href="./index.html">
+        <img src="./img/icons8-pokeball-48.png" alt="">
+        <span class="title-span">Pokédex</span></a>
+      </div>
+      <div class="search-ctn">
+        <input id="search_input" type="text" placeholder="Search for a Pokémon..."><button onclick="searchAllPokemons()">Start Search</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="poke_card" class="poke-card-section">
+    </section>
+
+    <section onclick="closeOverlay()" id="poke_overlay" class="poke-overlay"> 
+    </section>
+
+    <div id="loading" class="dnone loading">
+      <img class="pokeball" src="./img/loading_pokeball.png" alt="Loading Pokeball" >
+    </div>
+
+    <div class="forward-back">
+      <img id="back_arrow" class="dnone" onclick="showPrevRange()" src="./img/icons/arrow_back_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+      <img id="forward_arrow" onclick="showNextRange()" src="./img/icons/arrow_forward_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+    </div>
+
+  </main>
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="rights-section-footer">
+        <a href="./impressum.html" target="_blank">Impressum</a>
+        <a href="./datenschutz.html" target="_blank">Datenschutz</a>
+      </div>
+
+      <div class="middle-section-footer">    
+        <div><img src="./img/icons/icons8-copyright-64.png" alt="">Coded by Michael Fiebelkorn</div>
+        <div>Icons provided by <a href="https://icons8.de/" target="_blank">Icons8</a>.&nbsp;Thanks!</div>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+main {
+  padding: 20px;
+  text-align: left;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

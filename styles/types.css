@@ -1,0 +1,161 @@
+.bg_normal {
+  background-color: #9FA19F !important;
+}
+
+.poke-img:hover.bg_normal {
+  -webkit-filter: drop-shadow(5px 5px 5px #9FA19F) !important;
+  filter: drop-shadow(5px 5px 5px #9FA19F) !important; 
+}
+
+.bg_grass {
+  background-color: #3FA129 !important;
+}
+
+.poke-img:hover.bg_grass {
+  -webkit-filter: drop-shadow(5px 5px 5px #3FA129) !important;
+  filter: drop-shadow(5px 5px 5px #3FA129) !important; 
+}
+
+.bg_fire {
+  background-color: #E62829 !important;
+}
+
+.poke-img:hover.bg_fire {
+  -webkit-filter: drop-shadow(5px 5px 5px #E62829) !important;
+  filter: drop-shadow(5px 5px 5px #E62829) !important; 
+}
+
+.bg_water {
+  background-color: #2980EF !important;
+}
+
+.poke-img:hover.bg_water {
+  -webkit-filter: drop-shadow(5px 5px 5px #2980EF) !important;
+  filter: drop-shadow(5px 5px 5px #2980EF) !important; 
+}
+
+.bg_bug {
+  background-color: #91A119 !important;
+}
+
+.poke-img:hover.bg_bug {
+  -webkit-filter: drop-shadow(5px 5px 5px #91A119) !important;
+  filter: drop-shadow(5px 5px 5px #91A119) !important; 
+}
+
+.bg_poison {
+  background-color: #9141CB !important;
+}
+
+.poke-img:hover.bg_poison {
+  -webkit-filter: drop-shadow(5px 5px 5px #9141CB) !important;
+  filter: drop-shadow(5px 5px 5px #9141CB) !important; 
+}
+
+.bg_electric {
+  background-color: #FAC000 !important;
+}
+
+.poke-img:hover.bg_electric {
+  -webkit-filter: drop-shadow(5px 5px 5px #FAC000) !important;
+  filter: drop-shadow(5px 5px 5px #FAC000) !important; 
+}
+
+.bg_ground {
+  background-color: #915121 !important;
+}
+
+.poke-img:hover.bg_ground {
+  -webkit-filter: drop-shadow(5px 5px 5px #915121) !important;
+  filter: drop-shadow(5px 5px 5px #915121) !important; 
+}
+
+.bg_fairy {
+  background-color: #EF70EF !important;
+}
+
+.poke-img:hover.bg_fairy {
+  -webkit-filter: drop-shadow(5px 5px 5px #EF70EF) !important;
+  filter: drop-shadow(5px 5px 5px #EF70EF) !important; 
+}
+
+.bg_fighting {
+  background-color: #FF8000 !important;
+}
+
+.poke-img:hover.bg_fighting {
+  -webkit-filter: drop-shadow(5px 5px 5px #FF8000) !important;
+  filter: drop-shadow(5px 5px 5px #FF8000) !important; 
+}
+
+.bg_psychic {
+  background-color: #EF4179 !important;
+}
+
+.poke-img:hover.bg_psychic {
+  -webkit-filter: drop-shadow(5px 5px 5px #EF4179) !important;
+  filter: drop-shadow(5px 5px 5px #EF4179) !important; 
+}
+
+.bg_rock {
+  background-color: #AFA981 !important;
+}
+
+.poke-img:hover.bg_rock {
+  -webkit-filter: drop-shadow(5px 5px 5px #AFA981) !important;
+  filter: drop-shadow(5px 5px 5px #AFA981) !important; 
+}
+
+.bg_steel {
+  background-color: #60A1B8 !important;
+}
+
+.poke-img:hover.bg_steel {
+  -webkit-filter: drop-shadow(5px 5px 5px #60A1B8) !important;
+  filter: drop-shadow(5px 5px 5px #60A1B8) !important; 
+}
+
+.bg_ice {
+  background-color: #3DCEF3 !important;
+}
+
+.poke-img:hover.bg_ice {
+  -webkit-filter: drop-shadow(5px 5px 5px #3DCEF3) !important;
+  filter: drop-shadow(5px 5px 5px #3DCEF3) !important; 
+}
+
+.bg_ghost {
+  background-color: #704170 !important;
+}
+
+.poke-img:hover.bg_ghost {
+  -webkit-filter: drop-shadow(5px 5px 5px #704170) !important;
+  filter: drop-shadow(5px 5px 5px #704170) !important; 
+}
+
+.bg_dragon {
+  background-color: #5060E1 !important;
+}
+
+.poke-img:hover.bg_dragon {
+  -webkit-filter: drop-shadow(5px 5px 5px #5060E1) !important;
+  filter: drop-shadow(5px 5px 5px #5060E1) !important; 
+}
+
+.bg_dark {
+  background-color: #624D4E !important;
+}
+
+.poke-img:hover.bg_dark {
+  -webkit-filter: drop-shadow(5px 5px 5px #624D4E) !important;
+  filter: drop-shadow(5px 5px 5px #624D4E) !important; 
+}
+
+.bg_flying {
+  background-color: #81B9EF !important;
+}
+
+.poke-img:hover.bg_flying {
+  -webkit-filter: drop-shadow(5px 5px 5px #81B9EF) !important;
+  filter: drop-shadow(5px 5px 5px #81B9EF) !important; 
+}
